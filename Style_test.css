@@ -1,0 +1,23 @@
+body{
+font-family: Arial;
+}
+.blok{
+
+    width: 280px;
+    height: 180px;
+    box-shadow: 0 1px 7px rgba(0,0,0,0.5);
+    padding: 10px;
+    position: relative;
+}
+.ramka{
+    border: 2px solid #d4e9f6;
+    width: 236px;
+    height: 136px;
+    position: relative;
+    padding: 20px;
+}
+.h3{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
