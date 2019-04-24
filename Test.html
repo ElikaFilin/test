@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <title>Test</title>
     <link rel="stylesheet" href="Style_test.css">
-    <script>
-        button.addEventListener('click',function(){ let slide =document.querySelector('.inner_plan'); slide.style.width=parseInt(slide.style.width)+10+'px';});
-    </script>
+
 </head>
 <body>
 <div class="blok">
@@ -21,15 +19,20 @@
                 <div class="text">67%</div>
             </div>
             <div>
-                <div id ="button" class="button">
+                <button id="but">
                     <div class="cont">Продолжить</div>
 
-                </div>
+                </button>
                 <div class="day">Осталось 8 дней</div>
             </div>
 
         </div>
     </div>
 </div>
+<script>
+
+     but.addEventListener('click',function(){ var slide =document.querySelector('.inner_plan'); slide.style.width=parseInt(getComputedStyle(slide).width)+10+'px';});
+    // document.getElementById("but").addEventListener( "click" , function() {alert('Спасибо!')});
+</script>
 </body>
 </html>

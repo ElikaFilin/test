@@ -52,7 +52,7 @@ font-family: Arial;
     margin-bottom: 10px;
     position: relative;
 }
-.button{
+button{
     width: 100px;
     height: 24px;
     border: 1px solid #0d1c5f;
@@ -88,6 +88,8 @@ font-family: Arial;
 .inner_plan{
     background: #9ecbe8;
     width:40px;
+    height: 14px;
+
 }
 .text{
     width: 100%;
