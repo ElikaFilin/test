@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Test</title>
     <link rel="stylesheet" href="Style_test.css">
+    <script>
+        button.addEventListener('click',function(){ let slide =document.querySelector('.inner_plan'); slide.style.width=parseInt(slide.style.width)+10+'px';});
+    </script>
 </head>
 <body>
 <div class="blok">
@@ -18,7 +21,7 @@
                 <div class="text">67%</div>
             </div>
             <div>
-                <div class="button">
+                <div id ="button" class="button">
                     <div class="cont">Продолжить</div>
 
                 </div>
