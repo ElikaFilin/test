@@ -16,10 +16,10 @@
             <span class="h6">Месячный план выполнен на:</span>
             <div class="plan">
                 <div class="inner_plan"></div>
-                <div class="text">67%</div>
+                <div class="text" id="percent">67%</div>
             </div>
             <div>
-                <button id="but">
+                <button onclick=random()>
                     <div class="cont">Продолжить</div>
 
                 </button>
@@ -31,8 +31,13 @@
 </div>
 <script>
 
-     but.addEventListener('click',function(){ var slide =document.querySelector('.inner_plan'); slide.style.width=parseInt(getComputedStyle(slide).width)+10+'px';});
-    // document.getElementById("but").addEventListener( "click" , function() {alert('Спасибо!')});
+
+
+   function random(x) {
+        var namb = document.getElementById('percent');
+         namb.innerHTML=Math.floor(Math.random() * (100 - 10 + 1)) + 10;
+   }
+
 </script>
 </body>
 </html>
